@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #76c893;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.app {
+    width: 800px;
+}
+
+.head {
+    text-align: center;
+    background-color: #52b69a;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.task-container,
+.important-container,
+.regular-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.write {
+    background-color: #d9ed92;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #d9ed92;
+    font-size: 16px;
+}
+
+.buttons {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.to {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.imp {
+    background-color: #184e77;
+}
+
+.reg {
+    background-color: #1e6091;
+}
+
+.add {
+    background-color: #34a0a4;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    margin: 20px 0;
+}
+
+.sections {
+    display: flex;
+    gap: 40px;
+}
+
+.section {
+    flex: 1;
+}
+
+.action-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
